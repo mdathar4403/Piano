@@ -1,0 +1,91 @@
+html {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color:#1C3879;
+}
+
+.piano {
+  display: flex;
+  margin-top: 8rem;
+  position: relative;
+  margin-left: 4px;
+}
+
+.white-key {
+  width: 85px;
+  height: 300px;
+  background-color: #FFF;
+  border: 4px solid black;
+  border-radius: 0 0 7px 7px;
+  margin-left: -4px;
+  font-weight: bold;
+  font-size: 1rem;
+  outline: none;
+  cursor: pointer;
+}
+
+.white-key.active {
+  background-color: #C0C0C0;
+}
+
+.black-key {
+  position: absolute;
+  width: 45px;
+  height: 190px;
+  background-color:black;
+  border: 3px solid black;
+  border-radius: 0 0 2px 2px;
+  outline: none;
+  cursor: pointer;
+  color: #FFF;
+}
+.pressed{
+  background-color: #C0C0C0;
+}
+.black-key.active {
+  background-image: linear-gradient(#000000, #101010);
+}
+
+.Db4-key {
+  left: 56px;
+}
+
+.Eb4-key {
+  left: 135px;
+}
+
+.Gb4-key {
+  left: 298px;
+}
+
+.Ab4-key {
+  left: 378px;
+}
+
+.Bb4-key {
+  left:460px;
+}
+
+.Db5-key {
+  left: 620px;
+}
+
+.Eb5-key {
+  left: 702px;
+}
+.copyright{
+  margin: 4rem 22%;
+  width: 50%;
+  display: inline-block;
+  padding: 2rem;
+  color: rgb(227, 219, 219); 
+  font-family: 'Montserrat', sans-serif; 
+}
